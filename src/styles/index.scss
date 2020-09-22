@@ -1,0 +1,23 @@
+//全局样式更改
+body {
+  // width: 1920px;
+  // height: 1080px;
+  // overflow: hidden;
+  // overflow: auto;
+  margin: 0;
+  font-size: 16px;
+  color: $color-white;
+  background:linear-gradient(180deg,rgba(4,11,92,1) 0%,rgba(0,8,39,1) 100%);
+}
+
+.card-title{
+  color: $color-white;
+  height: 36px;
+  width: 140px;
+  line-height: 36px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  @include bis("~img/bg/card_title@2x.png");
+}

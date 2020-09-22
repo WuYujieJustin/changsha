@@ -1,0 +1,68 @@
+{
+  "name": "pmreport",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml"
+  },
+  "dependencies": {
+    "animated-number-vue": "^1.0.0",
+    "anime": "^0.1.2",
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.4",
+    "echarts": "^4.7.0",
+    "echarts-liquidfill": "^2.0.6",
+    "element-ui": "^2.13.2",
+    "es6-promise": "^4.2.8",
+    "moment": "^2.28.0",
+    "normalize.css": "^8.0.1",
+    "swiper": "^6.2.0",
+    "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-happy-scroll": "^2.1.1",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@njleonzhang/postcss-px-to-rem": "^1.0.1",
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-plugin-eslint": "^4.2.0",
+    "@vue/cli-plugin-router": "^4.2.3",
+    "@vue/cli-plugin-vuex": "^4.2.3",
+    "@vue/cli-service": "^4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "html-webpack-inline-plugin": "^0.0.4",
+    "lib-flexible-for-dashboard": "^1.0.2",
+    "mockjs": "^1.1.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "script-ext-html-webpack-plugin": "^2.1.4",
+    "vue-happy-scroll": "^2.1.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "ie 11",
+    "> 1%",
+    "last 2 versions"
+  ]
+}
